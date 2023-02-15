@@ -1,0 +1,271 @@
+body{
+    font-family: "Montserrat";
+}
+#title{
+    background-color: #ff4c68;
+    
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 0 0 20px 0;
+}
+.nav-item{
+    padding: 0 20px;
+    font-family: "Montserrat-light";
+    font-size: larger;
+    margin-bottom: 20px;
+}
+
+h1{
+    color: white;
+    padding: 50px 0px 0px 0px;
+    font-family: "Montserrat-Black";
+    font-weight: bolder;
+    font-size: 4rem;
+    line-height: 1.5;
+    margin-top: 25px;
+}
+h2{
+    padding-top: 50px;
+    padding-left:  15%;
+    padding-right: 15%;
+    font-family: "Montserrat-Bold";
+    font-weight: bolder;
+   
+}
+p{
+    color: grey;
+}
+
+
+
+
+/* Iphone image */
+
+.iphone{
+   
+    width: 250px;
+    transform: rotate(25deg);
+    margin-top: 70px;
+    position: absolute;
+    right: 27%;
+}
+/* Download button */
+
+#download-buttn1{
+   
+    margin: 10px 10px 10px -3px;
+}
+
+
+
+
+
+/* Features sectiion */
+#features{
+   
+    text-align: center;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    padding-top: 200px;
+  
+}
+#font-awsm{
+    color: #ef8172;
+    font-weight:bolder;
+    font-size: xxx-large;
+
+}
+#font-awsm:hover{
+color: #ff4c68;
+}
+h3{
+ font-weight: bolder;
+ font-size: large;
+}
+.col-lg-4{
+    padding: 20px 70px;
+}
+#row{
+    margin: 0px 200px;
+    
+   
+}
+
+
+
+
+
+
+/* Testimonials */
+
+#testimonials{
+
+    text-align: center;
+    padding: 3%;
+    background-color: #ef8172;
+    margin-top: 10%;
+}
+.testimonial-profile{
+    width: 120px;
+    border-radius: 100px;
+    margin: 2%;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding: 5%;
+    
+}
+.press-logo{
+margin: 20px 30px;
+width: 15%;
+}
+.carousel-indicators {
+    margin-bottom: -100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Pricing */
+#pricing{
+    width: 1000px;
+    text-align: center;
+    color: black;
+    margin: auto;
+  
+    
+}
+.card-body{
+    margin-top: -30px;
+    padding-bottom: 40px;
+
+}
+#pricing-id{
+    
+    padding: 0px;
+  
+    
+}
+.pricing-heading{
+    margin-bottom: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Call To Action */
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    
+}
+.h3-cta{
+    padding: 5%;
+    font-size: 45px;
+    text-align: center;
+    
+    
+}
+
+#download-buttn2{
+margin:  0px 10px 100px 10px;
+}
+
+
+
+
+
+
+/* Footer  */
+
+#footer{
+    padding: 5% 5% ;
+    text-align: center;
+}
+.social{
+    color: black;
+    margin: 30px 30px;
+    
+}
+.social:hover{
+    color: #ff4c68;
+}
+.copy-p{
+    margin-top: 40px;
+    font-size: small;
+}
+#heart-logo{
+    color: #ff4c68;
+}
+
+/* IPAD RESPONSIVE MEDIA QUERRY */
+
+@media (1155px>=width>=750px) {
+    .iphone{
+        transform: none;
+        position: static;
+    }
+    #title{
+        text-align: center;
+    }
+   .h1-main{
+    line-height: normal;
+   }
+  
+    
+}
+
+/* Iphone Responsive Media Querry */
+@media (749px>=width>=200px){
+    .iphone{
+        transform: none;
+        position: static;
+    }
+    #title{
+        text-align: center;
+    }
+    #pricing{
+        margin: auto;
+        padding: auto;
+        width: auto;
+    }
+   
+    #row{
+        width: 190px; 
+        margin: auto;
+        
+    }
+    #ftrs{
+    padding: 0;
+    
+    }
+    .h1-main{
+        line-height: normal;
+       }
+      .press-logo{
+        margin: 10px;
+      }
+  
+}
